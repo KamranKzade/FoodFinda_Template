@@ -1110,5 +1110,29 @@ input[type="search"] {
 
 /* Footer Start */
 
+footer{
+    width: 98%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #8EB50B;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+footer:hover span{
+    cursor: pointer;
+    color: #252525;
+}
+
+
+/* For mobile phone */
+@media only screen and (max-width: 767px) {
+    footer{
+        width: 96%;
+    }
+}
 
 /* Footer End */
