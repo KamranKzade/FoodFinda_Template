@@ -646,11 +646,122 @@ input[type="search"] {
     background: url(Images/contact-bg.png) center/cover no-repeat;
     margin-top: 50px;
     padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.GetInTouch > h3{
+    color: white;
+    font-size: 2.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:600;
+    text-align: center;
+}
+
+.GetInTouch .entry{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.entry input{
+    font-size: 1em;
+    width: 90%;
+    margin: auto;
+    color: #252525;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    padding: 10px;
+}
+
+
+.entry textarea{
+    width: 90%;
+    margin: auto;
+    color: #252525;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    padding: 10px;
+    font-size: 1em;
+    text-align: left;
+}
+
+.GetInTouch .SendMessage{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.SendMessage > a{
+    font-size: 2.1em;
+    color:white;
+    background-color: #8EB50B;
+    padding: 15px 45px; 
+    text-decoration: none;
+}
+
+
+.GetInTouch .BestFood{
+    width: 88%;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.BestFood .bf-1{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.BestFood .bf-2{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.bf-1 >h3{
+    color: black;
+    font-size: 2.8em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.bf-2 a{
+    text-decoration: none;
+    font-size: 1.5em;
+    background-color: #8EB50B;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+
+.bf-2 :hover{
+    background-color: #FD9700;
+}
+
+.SendMessage :hover{
+    background-color: #FD9700;
 }
 
 
 /* For table phone */
-@media only screen and (max-width: 952px) {}
+@media only screen and (max-width: 952px) {
+    .GetInTouch .BestFood{
+        width: 91%;
+    }
+
+    .GetInTouch .entry{
+        width: 90%;
+    }
+}
 
 /* For mobile phone */
 @media only screen and (max-width: 767px) {
@@ -666,6 +777,27 @@ input[type="search"] {
     #Customer .c3{
         width: 50%;
     }
+
+    .GetInTouch .BestFood{
+        display: inline-block;
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .BestFood .bf-2{
+        width: 75%;
+        margin-top: 50px;
+    }
+
+    .bf-1 >h3{
+        font-size: 1.8em;
+    }
+
+    .BestFood .bf-1{
+        width: 90%;
+    }
+    
 }
 
 /* Customer End */
