@@ -411,6 +411,14 @@ input[type="search"] {
         margin: auto;
     }
 
+    .main21 {
+        font-size: 1em;
+    }
+
+    input[type="search"] {
+        font-size: 1em;
+    }
+
     .Main411>a {
         font-size: 1em;
     }
@@ -448,8 +456,17 @@ input[type="search"] {
         letter-spacing: 2px;
     }
 
+    input[type="search"] {
+        font-size: 0.8em;
+    }
+
     .main21 {
         display: none;
+    }
+
+    .Main4{
+        margin-top: 30px;
+        padding-bottom: 50px;
     }
 
     .Main3>a {
@@ -459,11 +476,13 @@ input[type="search"] {
     .Main41 {
         width: 65%;
         margin: auto;
+        margin-top: 25px;
     }
 
     .Main6 {
         display: inline-block;
         width: 98%;
+        margin-top: 50px;
     }
 
     .Main61 {
@@ -562,7 +581,7 @@ input[type="search"] {
 }
 
 #AppSection .app2 {
-    width: 30%;
+    width: 40%;
     margin: auto;
     margin-top: 20px;
     text-align: left;
@@ -584,6 +603,7 @@ input[type="search"] {
 @media only screen and (max-width: 767px) {
     #AppSection {
         display: inline-block;
+        margin-left: 1%;
     }
 
     #AppSection .app2 {
@@ -869,7 +889,7 @@ input[type="search"] {
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 #Navigation .FullNavi2 {
@@ -878,7 +898,7 @@ input[type="search"] {
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 #Navigation .word {
@@ -1025,30 +1045,31 @@ input[type="search"] {
 
 /* For table phone */
 @media only screen and (max-width: 952px) {
-    #Navigation{
+    #Navigation {
         display: inline-block;
+        margin-left: 1%;
     }
 
-    #Navigation .FullNavi{
+    #Navigation .FullNavi {
         width: 90%;
         justify-content: space-around;
     }
 
-    #Navigation .word{
+    #Navigation .word {
         width: 25%;
     }
 
-    #Navigation .n12{
+    #Navigation .n12 {
         width: 25%;
         margin-top: 0px;
     }
 
-    #Navigation .FullNavi2{
+    #Navigation .FullNavi2 {
         width: 90%;
         justify-content: space-around;
     }
 
-    #Navigation .n1{
+    #Navigation .n1 {
         width: 27%;
         margin-top: 35px;
     }
@@ -1065,42 +1086,42 @@ input[type="search"] {
         display: inline-block;
     }
 
-    .word>p{
+    .word>p {
         font-size: 1.8em;
     }
 
-    #Navigation .word{
+    #Navigation .word {
         width: 90%;
         margin-top: 15px;
     }
 
-    #Navigation .n12{
+    #Navigation .n12 {
         width: 90%;
         margin-top: 15px;
     }
 
-    .n12 li{
+    .n12 li {
         font-size: 1.5em;
     }
-    
-    .n12 ul{
+
+    .n12 ul {
         margin-left: 5px;
     }
 
-    #Navigation .n1{
+    #Navigation .n1 {
         width: 90%;
         margin-top: 15px;
     }
 
-    .bf-2 a{
+    .bf-2 a {
         font-size: 1em;
     }
 
-    .n1 h5{
+    .n1 h5 {
         font-size: 2em;
     }
 
-    .n1 ul li{
+    .n1 ul li {
         font-size: 1.5em;
     }
 }
@@ -1110,7 +1131,7 @@ input[type="search"] {
 
 /* Footer Start */
 
-footer{
+footer {
     width: 98%;
     margin: auto;
     padding-top: 20px;
@@ -1122,17 +1143,9 @@ footer{
     font-weight: 500;
 }
 
-footer:hover span{
+footer:hover span {
     cursor: pointer;
     color: #252525;
-}
-
-
-/* For mobile phone */
-@media only screen and (max-width: 767px) {
-    footer{
-        width: 96%;
-    }
 }
 
 /* Footer End */
