@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=Roboto+Condensed&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -120,15 +123,328 @@ header {
     text-transform: uppercase;
 }
 
-#Navbar li:hover a{
+#Navbar li:hover a {
     color: #8EB50B;
 }
 
 /* For tablet phone */
 @media only screen and (max-width: 952px) {
-    #Navbar{
+    #Navbar {
         display: none;
     }
 }
 
 /* Nav End */
+
+
+/* Main Start */
+
+main {
+    width: 98%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.Main1 {
+    width: 40%;
+    margin: auto;
+}
+
+.Main1 h1 {
+    color: aliceblue;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: bolder;
+    letter-spacing: 8px;
+}
+
+.Main1 h1>span {
+    color: #8EB50B;
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px 15px;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+
+.Main2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.main21 {
+    width: 25%;
+    font-size: 2em;
+    color: #252525;
+    padding: 15px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+}
+
+.main22 {
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+input[type="search"] {
+    width: 100%;
+    margin: auto;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    color: #252525;
+    padding: 15px;
+    background: white;
+    border-radius: inherit;
+    background: white url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat right;
+}
+
+.Main3 {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.Main3>a {
+    width: 50%;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    padding: 15px 35px;
+    font-size: 2em;
+    background-color: #8EB50B;
+    border-radius: 10px;
+}
+
+.Main4 {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.Main3H {
+    width: 80%;
+    margin: auto;
+}
+
+.Main3H>h1 {
+    margin-top: 100px;
+    color: aliceblue;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: bolder;
+    letter-spacing: 8px;
+}
+
+.Main41 {
+    width: 10%;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.Main41>img {
+    width: 50%;
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px 25px 30px 25px;
+}
+
+.Main41>h3 {
+    color: aliceblue;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.Main411 {
+    margin-top: 15px;
+}
+
+.Main411>a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 2em;
+    background-color: #8EB50B;
+    border-radius: 10px;
+}
+
+.Main5 {
+    width: 88%;
+    margin: auto;
+}
+
+.Main5>h4 {
+    margin-top: 100px;
+    color: aliceblue;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    font-size: 3.2em;
+    font-weight: bolder;
+    letter-spacing: 8px;
+}
+
+.Main6 {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.Main61 {
+    width: 45%;
+    margin: auto;
+}
+
+.Main61>img {
+    width: 90%;
+}
+
+.Main62 {
+    width: 40%;
+    margin: auto;
+}
+
+.Main62>h4 {
+    color: aliceblue;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    font-size: 2.5em;
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
+
+.Main62>p {
+    color: aliceblue;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.Main621 {
+    margin-top: 50px;
+}
+
+.Main621>a {
+    width: 50%;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    background-color: #8EB50B;
+    padding: 15px;
+}
+
+/* For table phone */
+@media only screen and (max-width: 952px) {
+    .Main1 {
+        width: 50%;
+    }
+
+    .Main1 h1 {
+        font-size: 2em;
+        letter-spacing: 5px;
+    }
+
+    .Main41 {
+        width: 25%;
+        margin: auto;
+    }
+
+    .Main411>a {
+        font-size: 1em;
+    }
+
+    .Main41>img {
+        margin-top: 25px;
+    }
+
+
+    .Main6 {
+        margin-top: 100px;
+    }
+
+    .Main61>img {
+        width: 105%;
+    }
+
+    .Main62>h4 {
+        font-size: 2em;
+    }
+
+    .Main62>p {
+        font-size: 0.8em;
+    }
+
+    .Main621>a {
+        font-size: 1.9em;
+    }
+}
+
+
+/* For mobile phone */
+@media only screen and (max-width: 767px) {
+    .Main1 h1 {
+        font-size: 0.8em;
+        letter-spacing: 2px;
+    }
+
+    .main21 {
+        display: none;
+    }
+
+    .Main3>a {
+        font-size: 1em;
+    }
+
+    .Main41 {
+        width: 65%;
+        margin: auto;
+    }
+
+    .Main6 {
+        display: inline-block;
+        width: 98%;
+    }
+
+
+    .Main61 {
+        width: 90%;
+    }
+
+    .Main62 {
+        width: 90%;
+    }
+
+    .Main62>h4 {
+        margin-top: 15px;
+    }
+
+    .Main621>a {
+        font-size: 1em;
+    }
+}
+
+/* Main End */
