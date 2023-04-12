@@ -50,7 +50,7 @@ header {
     display: none;
 }
 
-.HeadItem :hover{
+.HeadItem :hover {
     color: #8EB50B;
     cursor: pointer;
     transition-duration: 1s;
@@ -391,7 +391,7 @@ input[type="search"] {
 .Main3 :hover {
     background-color: white;
     color: #252525;
-   
+
 }
 
 
@@ -852,5 +852,263 @@ input[type="search"] {
 
 /* Navigation Start */
 
+#Navigation {
+    width: 98%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    padding-bottom: 25px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#Navigation .FullNavi {
+    width: 35%;
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+#Navigation .FullNavi2 {
+    width: 35%;
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+#Navigation .word {
+    width: 25%;
+    margin: auto;
+}
+
+#Navigation .n1 {
+    width: 35%;
+    margin: auto;
+}
+
+#Navigation .n12 {
+    width: 18%;
+    margin: auto;
+}
+
+.word>h3 {
+    margin-top: 0px;
+    color: white;
+    font-size: 2.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+
+.n1>h3 {
+    margin-top: 0px;
+    color: white;
+    font-size: 1.7em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+
+.word>p {
+    color: white;
+    font-size: 0.8em;
+    margin-top: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.n1>p {
+    color: white;
+    font-size: 1em;
+    margin-top: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.n12>h3 {
+    margin-top: 0px;
+    color: white;
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+
+.n12 ul {
+    margin-top: 20px;
+}
+
+.n12 li {
+    color: white;
+    font-size: 1em;
+    margin: 2px;
+    padding: 0px;
+}
+
+.n12 li a {
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.n12 li :hover {
+    color: #8EB50B;
+}
+
+.n1 p {
+    margin-top: 5px;
+    padding: 0;
+    font-size: 0.8em;
+}
+
+.n1 h5 {
+    color: #8EB50B;
+    font-size: 1em;
+    margin-top: 15px;
+}
+
+.n1 h5 span {
+    transition-duration: 1s;
+    transition-property: color;
+    color: white;
+}
+
+.n1 p:hover {
+    color: #8EB50B;
+    cursor: pointer;
+    transition-duration: 1s;
+    transition-property: color;
+}
+
+.n1 ul {
+    margin-top: 25px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.n1 ul li {
+    color: white;
+    font-size: 1em;
+    margin: 5px;
+}
+
+.n1 li:hover {
+    color: #8EB50B;
+    cursor: pointer;
+}
+
+.sosialNetwork {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sosialNetwork li {
+    font-size: 2em;
+    background-color: white;
+    padding: 5px;
+}
+
+.sosialNetwork li:hover {
+    background-color: #8EB50B;
+}
+
+.sosialNetwork li i {
+    color: #252525;
+}
+
+.sosialNetwork li:hover i {
+    color: white;
+}
+
+
+/* For table phone */
+@media only screen and (max-width: 952px) {
+    #Navigation{
+        display: inline-block;
+    }
+
+    #Navigation .FullNavi{
+        width: 90%;
+        justify-content: space-around;
+    }
+
+    #Navigation .word{
+        width: 25%;
+    }
+
+    #Navigation .n12{
+        width: 25%;
+        margin-top: 0px;
+    }
+
+    #Navigation .FullNavi2{
+        width: 90%;
+        justify-content: space-around;
+    }
+
+    #Navigation .n1{
+        width: 27%;
+        margin-top: 35px;
+    }
+}
+
+
+/* For mobile phone */
+@media only screen and (max-width: 767px) {
+    #Navigation .FullNavi {
+        display: inline-block;
+    }
+
+    #Navigation .FullNavi2 {
+        display: inline-block;
+    }
+
+    .word>p{
+        font-size: 1.8em;
+    }
+
+    #Navigation .word{
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    #Navigation .n12{
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    .n12 li{
+        font-size: 1.5em;
+    }
+    
+    .n12 ul{
+        margin-left: 5px;
+    }
+
+    #Navigation .n1{
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    .bf-2 a{
+        font-size: 1em;
+    }
+
+    .n1 h5{
+        font-size: 2em;
+    }
+
+    .n1 ul li{
+        font-size: 1.5em;
+    }
+}
 
 /* Navigation End */
+
+
+/* Footer Start */
+
+
+/* Footer End */
