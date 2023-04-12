@@ -3,6 +3,132 @@
     padding: 0;
 }
 
-body{
+body {
     background: url(Images/body-bg.png) center/cover no-repeat;
 }
+
+/* Header Start */
+
+header {
+    width: 98%;
+    margin: auto;
+    background-color: #8EB50B;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.HeadItem {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+
+.HeadItem img {
+    width: 80%;
+    margin: auto;
+}
+
+.HeadItem h3 {
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-weight: 350;
+    padding: 20px;
+}
+
+.hi1 {
+    background-color: #252525;
+}
+
+.hi4 {
+    display: none;
+}
+
+/* For table phone */
+@media only screen and (max-width: 952px) {
+    .HeadItem {
+        width: 40%;
+    }
+
+    .HeadItem img {
+        text-align: left;
+        width: 100%;
+    }
+
+    .hi1 {
+        display: none;
+    }
+
+    .hi4 {
+        display: inline;
+        text-align: right;
+        font-size: 2.5em;
+        padding-right: 15px;
+    }
+}
+
+/* For mobile phone */
+/* @media only screen and (max-width: 767px) {} */
+
+
+/* Header End */
+
+
+/* Nav Start */
+
+#Navbar {
+    width: 98%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#Navbar nav {
+    width: 60%;
+    margin: auto;
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.solNav {
+    width: 75%;
+    margin: auto;
+    display: flex;
+}
+
+.sagNav {
+    width: 20%;
+    margin: auto;
+    display: flex;
+}
+
+#Navbar ul {
+    text-decoration: none;
+}
+
+#Navbar li {
+    list-style: none;
+}
+
+#Navbar a {
+    font-size: 1.2em;
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+#Navbar li:hover a{
+    color: #8EB50B;
+}
+
+/* For tablet phone */
+@media only screen and (max-width: 952px) {
+    #Navbar{
+        display: none;
+    }
+}
+
+/* Nav End */
