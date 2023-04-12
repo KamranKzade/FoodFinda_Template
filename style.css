@@ -37,6 +37,8 @@ header {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     font-weight: 350;
+    transition-duration: 1s;
+    transition-property: color;
     padding: 20px;
 }
 
@@ -46,6 +48,13 @@ header {
 
 .hi4 {
     display: none;
+}
+
+.HeadItem :hover{
+    color: #8EB50B;
+    cursor: pointer;
+    transition-duration: 1s;
+    transition-property: color;
 }
 
 /* For table phone */
@@ -121,10 +130,14 @@ header {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+    transition-property: color;
+    transition-duration: 1s;
 }
 
 #Navbar li:hover a {
     color: #8EB50B;
+    transition-property: color;
+    transition-duration: 1s;
 }
 
 /* For tablet phone */
@@ -223,6 +236,8 @@ input[type="search"] {
     font-size: 2em;
     background-color: #8EB50B;
     border-radius: 10px;
+    transition-duration: 1s;
+    transition-property: color;
 }
 
 .Main4 {
@@ -285,6 +300,8 @@ input[type="search"] {
     font-size: 2em;
     background-color: #8EB50B;
     border-radius: 10px;
+    transition-duration: 1s;
+    transition-property: color, background-color;
 }
 
 .Main5 {
@@ -355,6 +372,26 @@ input[type="search"] {
     font-size: 2em;
     background-color: #8EB50B;
     padding: 15px;
+    transition-duration: 1s;
+    transition-property: color, background-color;
+}
+
+.Main621 :hover {
+    background-color: #FD9700;
+    transition-duration: 1s;
+    transition-property: color, background-color;
+}
+
+.Main411 :hover {
+    background-color: #FD9700;
+    transition-duration: 1s;
+    transition-property: color, background-color;
+}
+
+.Main3 :hover {
+    background-color: white;
+    color: #252525;
+   
 }
 
 
@@ -507,12 +544,21 @@ input[type="search"] {
     margin-top: 50px;
 }
 
+.app121 :hover {
+    background-color: #FD9700;
+    transition-duration: 1s;
+    transition-property: color, background-color;
+    color: white;
+}
+
 .app121>a {
     color: #252525;
     background-color: white;
     padding: 15px 25px;
     text-decoration: none;
     font-size: 1.5em;
+    transition-duration: 1s;
+    transition-property: color, background-color;
 }
 
 #AppSection .app2 {
@@ -546,7 +592,7 @@ input[type="search"] {
         text-align: left;
     }
 
-    #AppSection .app1{
+    #AppSection .app1 {
         width: 80%;
     }
 }
@@ -640,7 +686,7 @@ input[type="search"] {
 }
 
 
-.GetInTouch{
+.GetInTouch {
     width: 75%;
     margin: auto;
     background: url(Images/contact-bg.png) center/cover no-repeat;
@@ -649,22 +695,22 @@ input[type="search"] {
     padding-bottom: 50px;
 }
 
-.GetInTouch > h3{
+.GetInTouch>h3 {
     color: white;
     font-size: 2.2em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight:600;
+    font-weight: 600;
     text-align: center;
 }
 
-.GetInTouch .entry{
+.GetInTouch .entry {
     width: 100%;
     margin: auto;
     text-align: center;
     margin-top: 25px;
 }
 
-.entry input{
+.entry input {
     font-size: 1em;
     width: 90%;
     margin: auto;
@@ -675,7 +721,7 @@ input[type="search"] {
 }
 
 
-.entry textarea{
+.entry textarea {
     width: 90%;
     margin: auto;
     color: #252525;
@@ -686,23 +732,23 @@ input[type="search"] {
     text-align: left;
 }
 
-.GetInTouch .SendMessage{
+.GetInTouch .SendMessage {
     width: 65%;
     margin: auto;
     text-align: center;
     margin-top: 50px;
 }
 
-.SendMessage > a{
+.SendMessage>a {
     font-size: 2.1em;
-    color:white;
+    color: white;
     background-color: #8EB50B;
-    padding: 15px 45px; 
+    padding: 15px 45px;
     text-decoration: none;
 }
 
 
-.GetInTouch .BestFood{
+.GetInTouch .BestFood {
     width: 88%;
     margin: auto;
     display: flex;
@@ -712,29 +758,29 @@ input[type="search"] {
     padding: 30px;
 }
 
-.BestFood .bf-1{
+.BestFood .bf-1 {
     width: 70%;
     margin: auto;
     text-align: center;
 }
 
 
-.BestFood .bf-2{
+.BestFood .bf-2 {
     width: 30%;
     margin: auto;
     text-align: center;
 }
 
-.bf-1 >h3{
+.bf-1>h3 {
     color: black;
     font-size: 2.8em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight:600;
+    font-weight: 600;
     text-align: center;
     letter-spacing: 3px;
 }
 
-.bf-2 a{
+.bf-2 a {
     text-decoration: none;
     font-size: 1.5em;
     background-color: #8EB50B;
@@ -743,22 +789,22 @@ input[type="search"] {
     border-radius: 5px;
 }
 
-.bf-2 :hover{
+.bf-2 :hover {
     background-color: #FD9700;
 }
 
-.SendMessage :hover{
+.SendMessage :hover {
     background-color: #FD9700;
 }
 
 
 /* For table phone */
 @media only screen and (max-width: 952px) {
-    .GetInTouch .BestFood{
+    .GetInTouch .BestFood {
         width: 91%;
     }
 
-    .GetInTouch .entry{
+    .GetInTouch .entry {
         width: 90%;
     }
 }
@@ -774,30 +820,37 @@ input[type="search"] {
         margin-bottom: 15px;
     }
 
-    #Customer .c3{
+    #Customer .c3 {
         width: 50%;
     }
 
-    .GetInTouch .BestFood{
+    .GetInTouch .BestFood {
         display: inline-block;
         width: 80%;
         margin: auto;
         margin-top: 20px;
     }
 
-    .BestFood .bf-2{
+    .BestFood .bf-2 {
         width: 75%;
         margin-top: 50px;
     }
 
-    .bf-1 >h3{
+    .bf-1>h3 {
         font-size: 1.8em;
     }
 
-    .BestFood .bf-1{
+    .BestFood .bf-1 {
         width: 90%;
     }
-    
+
 }
 
 /* Customer End */
+
+
+
+/* Navigation Start */
+
+
+/* Navigation End */
