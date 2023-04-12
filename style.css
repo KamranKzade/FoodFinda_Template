@@ -357,6 +357,7 @@ input[type="search"] {
     padding: 15px;
 }
 
+
 /* For table phone */
 @media only screen and (max-width: 952px) {
     .Main1 {
@@ -380,7 +381,6 @@ input[type="search"] {
     .Main41>img {
         margin-top: 25px;
     }
-
 
     .Main6 {
         margin-top: 100px;
@@ -429,7 +429,6 @@ input[type="search"] {
         width: 98%;
     }
 
-
     .Main61 {
         width: 90%;
     }
@@ -448,3 +447,4 @@ input[type="search"] {
 }
 
 /* Main End */
+
